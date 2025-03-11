@@ -19,7 +19,7 @@ public class Main {
         
         // 오름차순 정렬 결과 출력
         Collections.sort(numbers, (a, b) -> a - b);
-
+        
         for (int number : numbers) {
             bw.write(number + "\n");
         }
